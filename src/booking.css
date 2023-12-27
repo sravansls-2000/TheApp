@@ -1,0 +1,62 @@
+/* Style for the entire container */
+.mt-50 {
+    margin-top: 50px;
+  }
+  
+  /* Style for the buttons */
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button.danger {
+    background-color: #dc3545;
+  }
+  
+  /* Style for the grid of seats */
+  .display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .display-flex button {
+    margin: 0 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    text-align: center;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .seat.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

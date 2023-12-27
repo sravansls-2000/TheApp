@@ -1,5 +1,25 @@
-
+:root {
+    --background: #AFFFFF;
+  }
 
 body{
-background-color: #AFFFFF;
+background-color: var(--background);
 }
+.qoute{
+    font-family: 'Dancing Script', cursive;
+}
+.com-logo{
+background-image: url("./images/SIRA.png");
+mix-blend-mode: multiply;
+width: auto;
+height: auto;
+background-repeat: no-repeat;
+}
+.company{
+  mix-blend-mode: multiply;
+  width: 30px;
+  height: 50px;
+  
+}
+
+/* font-family: 'Dancing Script', cursive; */
